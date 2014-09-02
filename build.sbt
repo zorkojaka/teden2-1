@@ -1,4 +1,4 @@
-name := "Ogrodje projekta za tehnicni predmet Scala"
+name := "TP Scala - teden 1."
 
 version := "1.0"
 
