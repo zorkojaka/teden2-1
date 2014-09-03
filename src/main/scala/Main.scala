@@ -1,4 +1,3 @@
-
 class Main{
   // ------------ Naloga 1. ---------------
   //  Napiši funkcijo pyramid(n:Int):String, ki vrne piramido z n vrsticami
@@ -9,18 +8,17 @@ class Main{
   //   *******
   //  *********
   def pyramid(n:Int): String = ???
-  
-  
+
   // ------------ Naloga 2. ---------------
-  //  Napišite funkcijo, ki za podani niz vrne isti niz, kjer v zaporednem nizu 
+  //  Napišite funkcijo, ki za podani niz vrne isti niz, kjer v zaporednem nizu
   // istih znakov ohrani zgolj enega - npr. pri vhodu aabbba,  dobimo rezultat aba.
   def uniq(s:String): String = ???
 
 
   // ------------ Naloga 3. ---------------
-  //  Napišite funkcijo, ki za podano število ugotovi, ali je to število 
+  //  Napišite funkcijo, ki za podano število ugotovi, ali je to število
   //  Lycherelovo število
   // https://projecteuler.net/problem=55
-  def is_lycherel(n: BigInt): Boolean = ???
+  def isLycherel(n: BigInt): Boolean = ???
 
 }
