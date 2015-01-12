@@ -1,11 +1,11 @@
 import org.specs2.mutable._
 
 class Week2Tests extends Specification {
-  val solution = new Main	
+  val solution = new Main
 
-  
+
     val s = solution.singleton(5)
-       "contains 5" ! s(5) 
+       "contains 5" ! s(5)
        //s(4) must be(false)
        //s(6) must be(false)
 
@@ -21,6 +21,6 @@ class Week2Tests extends Specification {
     //success
   }
 
-
+  //etc...
 
 }

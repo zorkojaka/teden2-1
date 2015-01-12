@@ -55,7 +55,6 @@ class Main{
   //odvod funkcije - naredite to numerično
   def derive(f:RealFunc):RealFunc = ???
 
-  //def integrate(f:RealFunc):RealFunc = ???
 
 
 
