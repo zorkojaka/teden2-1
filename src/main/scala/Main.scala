@@ -72,6 +72,6 @@ class Main{
     def inverse(f:Coder):Coder = ???
 
     //Podani niz, ki je bil zakodiran s podano šifrirno funkcijo, odšifrirajte
-    def decode(s:String, f:Coder) = ???
+    def decode(s:String, f:Coder):String = ???
 
 }

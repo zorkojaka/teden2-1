@@ -93,5 +93,5 @@ def inverse(f:Coder):Coder
 
 Nazadnje uporabite zgoraj definirane funkcije, da zapišete dekodirnik za podani niz (pri podanem kodirniku, ki je ta niz sproduciral),
 ```scala
-def decode(s:String, f:Coder)
+def decode(s:String, f:Coder):String
 ```
