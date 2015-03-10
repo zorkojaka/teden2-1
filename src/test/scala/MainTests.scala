@@ -3,24 +3,26 @@ import org.specs2.mutable._
 class Week2Tests extends Specification {
   val solution = new Main
 
+  "The set functions" should {
+    "create the correct singleton" in {
+      val s1 = solution.singleton(5)
+      s1(5) must be_=true
+      s1(4) must be_=false
+      s1(6) must be_=false
+    }
+    //etc. TODO
 
-    val s = solution.singleton(5)
-       "contains 5" ! s(5)
-       //s(4) must be(false)
-       //s(6) must be(false)
-
-  "The interval function" should {
-    //success
   }
 
-  "The union function" should {
-    //success
+  "The rectangle functions" should {
+    //TODO
   }
 
-  "The intersect function" should {
-    //success
+  "The real functions" should {
+    //TODO
   }
 
-  //etc...
-
+  "The coding functions" should {
+    //TODO
+  }
 }

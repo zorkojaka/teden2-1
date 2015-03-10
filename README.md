@@ -31,13 +31,31 @@ def dedup(l: List[Int]): List[Int]
 ```
 ki iz podanega seznama odstrani vse duplikate (v novem seznamu naj bo vsak element v seznamu zastopan samo enkrat). Pri implementaciji obvezno uporabite predhodno definirane funkcije.
 
-## Naloga 2.
+Pri implementaciji te funkcije se boste prvič srečali s seznami. Seznam je osnovna podatkovna struktura v funkcijskih programskih jezikih. Na tem mestu je dovolj, da poznate nekaj osnovnih funkcij.
+```scala
+val l = List(1,2,3,4,5) //ustvarjanje novega seznama
+l1.isEmpty //preverjanje, če je seznam prazen
+l1.head //prvi element seznama
+l1.tail // seznam brez prvega elementa
+0::l1 //dodajanje elementa na začetek seznama
+
+```
+
+## Naloga 2.** (dodatna naloga)
 Pravokotnik v ravnini (s celoštevilskimi koordinatami) lahko predstavimo z dvema množicama (za vsako predpostavimo, da vsebuje en interval).
 
 ```scala
 type Rectangle = (Set, Set)
 ```
-Ponovno uporabite množice definirane v predhodni nalogi in implementirajte:
+Pravokotnik je podan kot par (angl. tuple) dveh množic. Tudi s pari se tukaj prvič srečamo, zato najprej nekaj funkcij za delo s pari:
+
+```scala
+val a = (1, 2) //ustvarjanje para
+a._1 //dostop do prve komponente para
+a._2 //dostop do druge komponente para
+```
+
+Uporabite množice definirane v predhodni nalogi in implementirajte:
 
 ```scala
 def createRectangle(x1:Int, y1:Int, x2:Int, y2:Int ):Rectangle
@@ -48,8 +66,8 @@ def intersect(r1:Rectangle, r2:Rectangle):Rectangle
 ```
 Prva funkcija naj ustvari pravokotnik, ki je podan z dvema krajiščema, druga naj preveri, če je podana točka vsebovana v pravokotniku in tretja naj iz dveh pravokotnikov zgradi nov pravokotnik, ki je presek podanih dveh.
 
-## Naloga 3.:crown:
-V tej nalogi pa si bomo ogledali elegantno delo s funkcijami relne spremenljivke. Najprej definirajmo tip take fukcije.
+## Naloga 3.
+V tej nalogi pa si bomo ogledali delo s funkcijami relne spremenljivke. Najprej definirajmo tip take fukcije.
 
 ```scala
 type RealFunc = Double => Double
