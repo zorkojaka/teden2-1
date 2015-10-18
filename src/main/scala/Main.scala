@@ -20,20 +20,7 @@ class Main {
   //???  Zapišite funkcijo, ki iz podanega seznama odstrani vse duplikate. Uporabite množice definirane zgoraj.
   def dedup(l: List[Int]): List[Int] = ???
 
-  /* Naloga 2. Pravokotniki.
-   * Pravokotnik v ravnini (s celoštevilskimi koordinatami) lahko predstavimo z dvema množicama (za vsako predpostavimo, da vsebuje en interval).
-   *
-   */
-
-  type Rectangle = (Set, Set)
-
-  def createRectangle(x1: Int, y1: Int, x2: Int, y2: Int): Rectangle = ???
-
-  def contains(x: Int, y: Int, r: Rectangle): Boolean = ???
-
-  def intersect(r1: Rectangle, r2: Rectangle): Rectangle = ???
-
-  /* Naloga 3. Funkcije realne spremenljivke
+  /* Naloga 2. Funkcije realne spremenljivke
   */
   type RealFunc = Double => Double
 
@@ -50,7 +37,7 @@ class Main {
   //odvod funkcije - naredite to numerično
   def derive(f: RealFunc): RealFunc = ???
 
-  /* Naloga 4. Kodiranje
+  /* Naloga 3. Kodiranje
   *  Vsako funkcijo Char=>Char si lahko predstavljamo kot šifrirno funkcijo. Napišite nekaj funkcij za delo s takimi šifrirnimi funkcijami.
   */
   type Coder = Char => Char
